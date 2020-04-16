@@ -32,6 +32,6 @@ public class HomeController {
     	TestClient ncg = new TestClient();
 		//ncg.executeGETService();
     	
-        return "Reply: " + ncg.executeGETService();
+        return "Reply: " + ncg.executePOSTService();
     }
 }
